@@ -79,7 +79,6 @@ class CoffeShopCard extends StatelessWidget {
                   shop.imageAsset,
                   fit: BoxFit.cover,
                   errorBuilder: (context, error, stack) {
-                    // kalau asset belum ada, tetap aman (nggak crash)
                     return Container(
                       color: AppColors.cream,
                       alignment: Alignment.center,
